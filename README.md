@@ -54,7 +54,7 @@ git remote add origin git@github.com:helpzmp-cmyk/jimeng-storyboard-queue.git
 git push -u origin main
 ```
 
-如果用的是别的账号 / 仓库名，把 URL 和下面 `README.md` 里的 clone 地址一起改掉。
+如果用的是别的账号 / 仓库名，把这里的 URL 和上面的 clone 地址一起改掉。
 
 ## 更新与备份
 
