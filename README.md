@@ -43,6 +43,19 @@ git clone git@github.com:helpzmp-cmyk/jimeng-storyboard-queue.git <你的工作�
 - `date` 按北京时间（即梦额度按北京 0 点重置），取值：`TZ=Asia/Shanghai date +%F`
 - `history` 是追加型记账，用来出最后的"哪天生成了哪些"，除此之外不改台账结构
 
+## 首次发布（远端仓库还没建时）
+
+GitHub 网页建一个**公开**空仓库（不要勾选 README / .gitignore / license），名字建议 `jimeng-storyboard-queue`：
+
+```bash
+# 已在本机初始化并提交过，直接加远端推上去
+cd /home/zmp/项目/jimeng-storyboard-queue
+git remote add origin git@github.com:helpzmp-cmyk/jimeng-storyboard-queue.git
+git push -u origin main
+```
+
+如果用的是别的账号 / 仓库名，把 URL 和下面 `README.md` 里的 clone 地址一起改掉。
+
 ## 更新与备份
 
 ```bash
